@@ -145,7 +145,7 @@ export default function MyOrder() {
       <div>
         <Nav />
       </div>
-
+      <h1 style={{textAlign:"center"}}>Orders</h1>
       <div className="container">
         <div className="row">
           {orderData !== {}
