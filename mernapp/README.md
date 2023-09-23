@@ -2,15 +2,6 @@
 
 Welcome to Go Food, your ultimate destination for ordering delicious pizza, biryani, and a wide variety of mouthwatering dishes. This full-stack MERN (MongoDB, Express.js, React, Node.js) application is designed to satisfy your cravings with a seamless user experience. Whether you're a foodie or just looking for a quick meal, Go Food has you covered!
 
-##Images
-![1](./images/1.png)
-![2](images/2.png)
-![3](images/3.png)
-![4](images/4.png)
-![5](images/5.png)
-![6](images/6.png)
-
-
 ## Features
 
 - **User Authentication**: Go Food uses JWT (JSON Web Tokens) authentication to ensure secure access to your account and orders.
