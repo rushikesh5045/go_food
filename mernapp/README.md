@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Go Food - Your One-Stop Food Ordering App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Go Food, your ultimate destination for ordering delicious pizza, biryani, and a wide variety of mouthwatering dishes. This full-stack MERN (MongoDB, Express.js, React, Node.js) application is designed to satisfy your cravings with a seamless user experience. Whether you're a foodie or just looking for a quick meal, Go Food has you covered!
 
-## Available Scripts
+##Images
+![1](./images/1.png)
+![2](./images/2.png)
+![3](./images/3.png)
+![4](./images/4.png)
+![5](./images/5.png)
+![6](./images/6.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Authentication**: Go Food uses JWT (JSON Web Tokens) authentication to ensure secure access to your account and orders.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Menu**: Browse through our extensive menu that includes pizzas, biryanis, appetizers, and more. You'll find something for every palate!
 
-### `npm test`
+- **Order Management**: Easily add items to your cart, review your order, and complete the checkout process. Keep track of your order status.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Responsive Design**: Go Food is built using Bootstrap, making it fully responsive and accessible on all devices, whether you're on your desktop or mobile.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**:
+  - React: A powerful JavaScript library for building user interfaces.
+  - React Router DOM: For handling client-side routing and navigation.
+  - Bootstrap: For creating a sleek and responsive UI.
+  - JWT Authentication: Secure user authentication using JSON Web Tokens.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Backend**:
+  - Node.js: A server-side JavaScript runtime for building fast and scalable applications.
+  - Express.js: A web application framework for Node.js to build the backend server.
+  - Express Validator: For validating user input and ensuring data integrity.
+  - MongoDB: A NoSQL database for efficient data storage.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+To run Go Food locally on your machine, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone this repository to your local system.
+   ```bash
+   git clone https://github.com/yourusername/go-food.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory.
+   ```bash
+   cd go-food
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install dependencies for both the client and server.
+   ```bash
+   cd client
+   npm install
+   cd ../server
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Configure the environment variables:
+   - Create a `.env` file in the `server` directory and set your MongoDB connection URL and JWT secret.
+   ```
+   MONGODB_URI=your_mongodb_uri
+   JWT_SECRET=your_secret_key
+   ```
 
-## Learn More
+5. Start the server and client.
+   ```bash
+   cd mernapp/backend
+   npm start
+   cd ../mernapp
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Open your web browser and access `http://localhost:3000` to use Go Food locally.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+We welcome contributions from the community to make Go Food even better. Feel free to open issues, submit pull requests, or suggest improvements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy your food journey with Go Food! If you have any questions or need assistance, please don't hesitate to reach out. Bon appétit! 🍕🍛🍔🥗
