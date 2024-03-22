@@ -7,7 +7,7 @@
 
 //   const fetchMyOrder = async () => {
 //     console.log(localStorage.getItem("userEmail"));
-//     await fetch("http://localhost:5000/api/myOrderData", {
+//     await fetch("https://go-food-myw0.onrender.com/api/myOrderData", {
 //       // credentials: 'include',
 //       // Origin:"http://localhost:3000/login",
 //       method: "POST",
@@ -122,7 +122,7 @@ export default function MyOrder() {
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem("userEmail"));
-    await fetch("http://localhost:5000/api/myOrderData", {
+    await fetch("https://go-food-myw0.onrender.com/api/myOrderData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

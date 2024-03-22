@@ -10,7 +10,7 @@ export default function Signup() {
   let navigate = useNavigate();
   const submitHandler = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/createUser", {
+    const response = await fetch("https://go-food-myw0.onrender.com/api/createUser", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
