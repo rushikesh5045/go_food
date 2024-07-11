@@ -25,7 +25,7 @@ export default function Home() {
 
   useEffect(() => {
     loadData();
-  });
+  },[]);
 
   return (
     <>
