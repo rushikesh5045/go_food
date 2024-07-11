@@ -55,7 +55,7 @@ export default function Home() {
             </div>
             <div className="carousel-item active">
               <img
-                src="https://source.unsplash.com/random/900×700/?burger"
+                src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 className="d-block w-100 mh-50"
                 style={{ filter: "brightness(30%)" }}
                 alt="..."
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/900×700/?pastery"
+                src="https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 className="d-block w-100 mh-50"
                 style={{ filter: "brightness(30%)" }}
                 alt="..."
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/900×700/?barbeque"
+                src="https://images.pexels.com/photos/533325/pexels-photo-533325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 className="d-block w-100 mh-50"
                 style={{ filter: "brightness(30%)" }}
                 alt="..."
